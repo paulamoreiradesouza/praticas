@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font-family: 'Raleway', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+/* Global */
+
+.grid {
+	width: 1200px;
+	margin: auto;
+	margin-top: 65px;
+}
+
+header {
+	position: relative;
+	margin-bottom: 180px;
+}
+
+header img {
+	margin-bottom: 165px;
+}
+
+.header-nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.header-nav ul li {
+	display: inline;
+	margin-right: 60px;
+
+	font-family: 'Open Sans', sans-serif;
+	color: #05041F;
+}
+
+.header h1 {
+	width: 600px;
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: #05041F;
+
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.header p {
+	width: 530px;
+
+	font-family: 'Open Sans', sans-serif;
+	color: #05041F;
+	font-size: 16px;
+
+	line-height: 1.5;
+
+	margin-bottom: 30px;
+}
+
+.header input {
+	width: 320px;
+	height: 45px;
+
+	border: #585870 solid 1px;
+	border-radius: 5px;
+
+	margin-right: 15px;
+}
+
+input::placeholder {
+	color: #BFBFBF;
+}
+
+.header button {
+	width: 200px;
+	height: 45px;
+
+	border-radius: 5px;
+	border: none;
+	background: #3E3EFA;
+
+	color: white;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 0.7px;
+	box-shadow: 0 0px 22px -11px rgba(171, 171, 171, 0.68);
+}
+
+.header-illustration {
+	position: absolute;
+	top: 110px;
+	right: 60px;
+}
+
+.main-background-first {
+	background: url(bg-curve-desktop.svg) top center;
+	background-size: cover;
+
+	padding-top: 50px;
+}
+
+.first-content h1 {
+	width: 660px;
+
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #05041F;
+
+	line-height: 1.5;
+	margin-bottom: 40px;
+}
+
+.first-content h2 {
+	width: 500px;
+
+	font-family: 'Open Sans', sans-serif;
+	color: #05041F;
+	font-size: 14px;
+
+	line-height: 1.5;
+	margin-bottom: 14px;
+}
+
+.first-content p {
+	color: #3C6E65;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+
+	text-decoration: underline;
+	margin-bottom: 45px;
+}
+
+.first-testemonial {
+	width: 365px;
+
+	position: relative;
+
+	background: white;
+	box-shadow: 0 0px 22px -11px rgba(171, 171, 171, 0.68);
+	border-radius: 5px;
+
+	padding-top: 25px;
+	padding-left: 25px;
+	padding-right: 40px;
+}
+
+.first-testemonial img {
+	margin-bottom: 20px;
+}
+
+.first-testemonial h1 {
+	font-family: 'Open Sans', sans-serif;
+	color: #05041F;
+	font-size: 15px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+
+	margin-bottom: 20px;
+}
+
+.first-testemonial h2 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	color: #05041F;
+	font-size: 13px;
+
+	margin-bottom: 5px;
+}
+
+.first-testemonial p {
+	font-family: 'Raleway', sans-serif;
+	color: #05041F;
+	font-size: 11px;
+}
+
+.avatar-testimonial {
+	border-radius: 50px;
+}
+
+.testemonial-name {
+	position: absolute;
+	top: 171px;
+	left: 66px;
+}
+
+.illustration-2 {
+	position: absolute;
+	top: 880px;
+	right: 60px;
+}

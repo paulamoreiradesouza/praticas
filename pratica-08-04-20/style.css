@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* font-family: 'Open Sans', sans-serif; */
+/* font-family: 'Poppins', sans-serif; */
+
+/* Global */
+
+body {
+	background: url(bg-desktop.svg) #674BB1;
+}
+
+.grid {
+	width: 1280px;
+	margin: auto;
+}
+
+.header {
+	width: 200px;
+	height: 35px;
+	margin-left: 80px;
+	margin-top: 64px;
+	margin-bottom: 95px;
+}
+
+.main {
+	width: 1140px;
+	margin: auto;
+	margin-left: 80px;
+	margin-right: 80px;
+
+	position: relative;
+}
+
+.main-mockups {
+	width: 696px;
+}
+
+.main-text {
+	width: 432px;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.text {
+	width: 380px;
+	margin: auto;
+	margin-top: 56px;
+	margin-bottom: 175px;
+}
+
+.text h1 {
+	font-size: 28px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	color: white;
+	line-height: 1.5;
+	letter-spacing: 0.3px;
+	text-transform: capitalize;
+	margin-bottom: 40px;
+}
+
+.text p {
+	font-size: 13px;
+	color: white;
+	line-height: 1.5;
+	letter-spacing: 0.2px;
+	font-family: 'Open Sans', sans-serif;
+	margin-bottom: 30px;
+}
+
+.text button {
+	width: 170px;
+	height: 56px;
+	font-size: 14px;
+	border-radius: 25px;
+	border: none;
+	background: white;
+	color: #674BB1;
+	box-shadow: 15px 10px 25px 0px rgba(0,0,0,0.45);
+}
+
+.footer {
+	width: 1140px;
+	margin: auto;
+}
+
+.footer-nav {
+	text-align: right;
+}
+
+.footer-nav li {
+	display: inline;
+	margin: 0 10px;
+	color: #696969;
+}

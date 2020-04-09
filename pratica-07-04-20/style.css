@@ -1,0 +1,241 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Global */
+
+.grid {
+	width: 1200px;
+	margin: auto;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #FAFAFA;
+}
+
+/* Header */
+.header {
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	position: relative;
+}
+
+.header h1 {
+	font-size: 28px;
+	margin-bottom: 15px;
+	color: #263238;
+}
+
+.header h2 {
+	font-size: 28px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	color: #263238;
+}
+
+.header p {
+	width: 550px;
+	margin: auto;
+	color: #37474F;
+	line-height: 1.5;
+}
+
+/* Main */
+.main {
+	margin-bottom: 100px;
+	position: relative;
+}
+
+/* Supervisor */
+.supervisor {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 25px;
+
+	width: 300px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+
+	background: white;
+	border-radius: 10px;
+	border-top: #00CC99 solid;
+	box-shadow: -5px 11px 21px 0px rgba(0,0,0,0.4);
+}
+
+.supervisor h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #263238;
+	margin-bottom: 15px;
+}
+
+.supervisor p {
+	font-size: 15px;
+	color: #37474F;
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.supervisor img {
+	float: right;
+}
+
+/* Team Builder */
+
+.team-builder {
+	margin: auto;
+	margin-bottom: 30px;
+
+	width: 300px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+
+	background: white;
+	border-radius: 10px;
+	border-top: #CC0000 solid;
+	box-shadow: -5px 11px 21px 0px rgba(0,0,0,0.4);
+}
+
+.team-builder h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #263238;
+	margin-bottom: 15px;
+}
+
+.team-builder p {
+	font-size: 15px;
+	color: #37474F;
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.team-builder div {
+	text-align: right;
+}
+
+/* Karma */
+
+.karma {
+	margin: auto;
+
+	width: 300px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+
+	background: white;
+	border-radius: 10px;
+	border-top: #FF6600 solid;
+	box-shadow: -5px 11px 21px 0px rgba(0,0,0,0.4);
+}
+
+.karma h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #263238;
+	margin-bottom: 15px;
+}
+
+.karma p {
+	font-size: 15px;
+	color: #37474F;
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.karma div {
+	text-align: right;
+}
+
+/* Calculator */
+
+.calculator {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 25px;
+
+	width: 300px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+
+	background: white;
+	border-radius: 10px;
+	border-top: #0033FF solid;
+	box-shadow: -5px 11px 21px 0px rgba(0,0,0,0.4);
+}
+
+.calculator h1 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #263238;
+	margin-bottom: 15px;
+}
+
+.calculator p {
+	font-size: 15px;
+	color: #37474F;
+	margin-bottom: 40px;
+	line-height: 1.5;
+}
+
+.calculator img {
+	float: right;
+}
+
